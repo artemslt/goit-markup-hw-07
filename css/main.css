@@ -599,7 +599,7 @@ img {
   fill: currentColor;
 }
 
-.clients {
+.client {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -646,12 +646,12 @@ img {
   border: 1px solid #2196f3;
 }
 
-.client__card + .client__card {
-  margin-left: 30px;
+.client .client__icon {
+  fill: currentColor;
 }
 
-.client__icon {
-  fill: currentColor;
+.client__card + .client__card {
+  margin-left: 30px;
 }
 
 .footer {
