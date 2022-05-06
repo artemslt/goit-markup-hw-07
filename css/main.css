@@ -164,9 +164,11 @@ img {
 
 .hero {
   text-align: center;
+  background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url(./../images/heroimg.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(./../images/heroimg.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./../images/heroimg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1600px;
