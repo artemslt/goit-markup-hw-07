@@ -29,7 +29,7 @@
   background-color: $main-bottun-color;
   cursor: pointer;
 
-  transition: background-color 250ms $animation-cube, color 250ms var(--animation-cube),
+  transition: background-color 250ms $animation-cube, color 250ms var $animation-cube,
     box-shadow 250ms $animation-cube;
 }
 .portfolio__button:hover,

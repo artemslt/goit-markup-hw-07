@@ -24,7 +24,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   color: inherit;
-  transition: color 250ms var(--animation-cube);
+  transition: color 250ms var $animation-cube;
 }
 
 .header-contact_icon {
